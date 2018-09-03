@@ -1,0 +1,35 @@
+{
+    "name": "koa-preuse",
+    "version": "0.0.0",
+    "description": "Prepending a middleware to the beginning of the middleware list for Koa application.",
+    "main": "index.js",
+    "scripts": {
+        "test-watch": "nodemon --exec npm test",
+        "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json",
+        "lint": "eslint ./ --cache --ignore-path .eslintignore",
+        "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LvChengbin/koa-preuse.git"
+    },
+    "keywords": [
+        "prepend",
+        "use",
+        "koa",
+        "preuse",
+        "middleware",
+        "unshift"
+    ],
+    "author": "LvChengbin <lvchengbin59@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/LvChengbin/koa-preuse/issues"
+    },
+    "homepage": "https://github.com/LvChengbin/koa-preuse#readme",
+    "devDependencies": {
+        "jasmine": "^3.2.0",
+        "koa": "^2.5.2",
+        "nodemon": "^1.18.4"
+    }
+}
