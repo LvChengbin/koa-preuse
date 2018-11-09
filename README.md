@@ -1,5 +1,7 @@
 # koa-preuse
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/LvChengbin/koa-preuse.svg)](https://greenkeeper.io/)
+
 Prepending a middleware to the beginning of the middleware list for Koa application.
 
 ## Installation
